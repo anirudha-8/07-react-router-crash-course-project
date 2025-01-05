@@ -14,10 +14,8 @@ const GitHub = () => {
 
 	return (
 		<>
-			<div className="bg-gray-700 text-white text-center text-3xl">
+			<div className="bg-gray-700 text-white text-center text-3xl p-4">
 				GitHub Followers : {data.followers}
-			</div>
-			<div>
 				<img
 					src={data.avatar_url}
 					alt="github avatar"
