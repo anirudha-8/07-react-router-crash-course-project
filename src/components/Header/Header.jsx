@@ -5,6 +5,7 @@ const Header = () => {
 		{ path: "/", label: "Home" },
 		{ path: "/about", label: "About" },
 		{ path: "/contact", label: "Contact" },
+		{ path: "/github", label: "GitHub" },
 	];
 	const getNavLinkClass = (isActive) =>
 		`${

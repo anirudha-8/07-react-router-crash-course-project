@@ -70,14 +70,18 @@ export default function Footer() {
 							</h2>
 							<ul className="text-gray-500 font-medium">
 								<li className="mb-4">
-									<a
-										href="https://github.com/hiteshchoudhary"
-										className="hover:underline"
-										target="_blank"
-										rel="noreferrer"
+									<NavLink
+										to="/github"
+										className={({ isActive }) =>
+											`${
+												isActive
+													? "text-orange-700"
+													: "text-gray-700"
+											} hover:underline`
+										}
 									>
-										Github
-									</a>
+										GitHub
+									</NavLink>
 								</li>
 								<li>
 									<Link to="/" className="hover:underline">
