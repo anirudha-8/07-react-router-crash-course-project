@@ -32,10 +32,10 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
+				<div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full">
 					<img
 						className="w-96"
-						src="https://i.ibb.co/5BCcDYB/Remote2.png"
+						src="https://plus.unsplash.com/premium_vector-1682307798482-3d415c287228?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 						alt="image1"
 					/>
 				</div>
@@ -43,8 +43,8 @@ export default function Home() {
 
 			<div className="grid  place-items-center sm:mt-20">
 				<img
-					className="sm:w-96 w-48"
-					src="https://i.ibb.co/2M7rtLk/Remote1.png"
+					className="sm:w-96 w-48 rounded-full"
+					src="https://plus.unsplash.com/premium_vector-1720980470208-79f49f4d8f61?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 					alt="image2"
 				/>
 			</div>
